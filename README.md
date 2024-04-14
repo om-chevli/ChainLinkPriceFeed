@@ -1,8 +1,11 @@
-# React + Vite
+# Chainlink Price Feed on Avalance Fuji
+- Deployed DApp on https://price-feed-fuji-testnet.netlify.app/ 
+- Deployed Contract Address **0xA234aB5E7F571392abA06842ab0454f132810195**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation Instruction
+ - npm install --save-dev @nomicfoundation/hardhat-toolbox
+ - npm install @chainlink/contracts --save
+ - npm install dotenv 
+ - npm install --save-dev hardhat
+ - Create a .env file and add your Fuci C Chain endpoint with name "QUICKNODE_ENDPOINT"
+ - Add "DEPLOYER_PRIVATE_KEY" in the .env file
